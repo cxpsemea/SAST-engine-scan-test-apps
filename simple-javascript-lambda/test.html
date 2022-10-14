@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<script>
+
+    var urlparms = new URLSearchParams(window.location.search);
+    var myvar = urlparms.get('myvar');
+    
+    let write = ( str ) => {
+        document.write( "Input: " + str );
+    }
+    
+    write( myvar );
+
+</script>
+
+</body>
+</html>
